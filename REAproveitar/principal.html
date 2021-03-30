@@ -3,15 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>teste</title>
+  <title>Projecto (Re)Aproveitar</title>
 </head>
 <body>
-  <img src="imagem">
+  <div class="container">
+    <div class ="image">
+  <img src="./images/imagesMaos.jpg">
   <h1 style="color:blue;"><left>Vamos ajudar a REAproveitar</left></h1>
+</div>
+<div class="horario">
   <h2><center>Mapa de Horários</center></h2>
 
   <BR><BR>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-  <select name="select">
+  <select name="selectDia" id="dia">
   <option value="valor1" selected>2ª Feira</option>
   <option value="valor2">3ª Feira</option>
   <option value="valor3">4ª Feira</option>
@@ -22,24 +26,23 @@
   </select>
 
   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-  <select name="select">
+  <select name="selectTurno" id="Turno">
   <option value="valor1" selected>Turno da Tarde</option>
   <option value="valor1">Turno da Noite</option>
   </select>
     
   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-  <input type="button" style="background-color:blue; border-color:black; color:white" id="btnOK" value="OK" />
+  <input type="button" style="background-color:blue; border-color:black; color:white" id="btnOK" value="Ok" onclick="validadiahorario()"/>
 
+</div> 
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 
-<script>
-  function validadiahorario(){
-    
-  }
+<div class="Mapa" id="mapa">
+<!--divisao que vai receber o mapa-->    
 
-</script>
-  
-    
-</body>
+</div>
 
-    
+</div> 
+<script src="principal.js"></script>
+</body>    
 </html>

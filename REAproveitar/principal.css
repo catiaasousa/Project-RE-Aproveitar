@@ -1,0 +1,18 @@
+h1 {
+    color: blue;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;   
+}
+
+input[type=button] {
+    background-color: blue; 
+    border-color: black; 
+    color: white;
+}
+
+.Mapa{
+    visibility: hidden;
+}
